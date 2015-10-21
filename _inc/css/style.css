@@ -1,0 +1,56 @@
+.folder-menu {
+    /*     border:1px solid red;  */
+}
+.folder-menu ul {
+    /*     border:1px solid red;  */
+}
+
+.folder-menu ul li {
+    list-style:none;
+    padding:5px;
+    background-color: #FFFFFF;
+
+}
+.folder-menu ul li:hover {
+    list-style:none;
+    padding:5px;
+    background-color:#ECEAEA;
+}
+.folder-menu ul li a,  .folder-menu ul li a ul li   {
+    color:grey;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+
+
+.folder-path {
+    padding:5px;
+    border: 1px solid #884343;
+    background-color: #F5F5F8;
+}
+
+
+.folder-upload {
+    padding:50px;
+    border: 1px solid #884343;
+    background-color: #F9F9FE;
+}
+
+.upload-status{
+    /* border:1px solid red; */
+    padding:10px;
+    background-color: #884343;
+    color:white;
+    text-align: center;
+}
+
+
+.active {
+    border:1px solid red !important;
+    background-color: red;
+}
+
+.active a {
+    color:red !important;
+}
